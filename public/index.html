@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div
+      class="
+        p-3
+        bg-mainbg
+        h-auto
+        text-par text-myfont
+        lg:h-screen lg:grid
+        place-content-center
+      "
+    >
+      <div
+        class="grid md:grid-cols-2 bg-cardbg md:max-w-4xl mx-auto rounded-md"
+      >
+        <div class="block md:hidden bg-accent">
+          <img
+            class="w-full rounded-t-md mix-blend-overlay"
+            src="../images/image-header-mobile.jpg"
+          />
+        </div>
+
+        <div class="font-inter flex flex-col justify-center p-8 lg:p-16">
+          <h1
+            class="
+              text-2xl
+              font-bold
+              pb-5
+              tracking-tight
+              leading-6
+              text-heading
+            "
+          >
+            Get <span class="text-accent">insights</span> that help your
+            business grow.
+          </h1>
+          <p class="font-light">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="pt-14 font-deca">
+            <div class="flex justify-between">
+              <div>
+                <h3 class="text-xl font-semibold text-heading">10k+</h3>
+                <p class="uppercase font-light text-xs">companies</p>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-heading">314</h3>
+                <p class="uppercase font-light text-xs">templates</p>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-heading">12M+</h3>
+                <p class="uppercase font-light text-xs">queries</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-accent">
+          <img
+            class="
+              w-full
+              h-full
+              bg-center
+              hidden
+              md:block
+              rounded-r-md
+              mix-blend-overlay
+            "
+            src="../images/image-header-desktop.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
